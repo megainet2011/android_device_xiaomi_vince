@@ -14,6 +14,9 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- Do not translate. Default access point SSID used for tethering -->
+    <string name="wifi_tether_configure_ssid_default" translatable="false">Redmi 5 Plus</string>
+
     <!-- Whether a software navigation bar should be shown. NOTE: in the future this may be
          autodetected from the Configuration. -->
     <bool name="config_showNavigationBar">true</bool>
@@ -38,9 +41,9 @@
 
 <integer-array name="config_longPressVibePattern">
         <item>0</item>
-        <item>10</item>
-        <item>20</item>
-        <item>18</item>
+        <item>12</item>
+        <item>24</item>
+        <item>32</item>
     </integer-array>
     <integer-array name="config_virtualKeyVibePattern">
         <item>0</item>
