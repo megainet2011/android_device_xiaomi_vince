@@ -22,4 +22,10 @@
 <resources>
     <!-- Show battery icon in the QS Panel instead of in the header -->
     <bool name="config_batteryInQSPanel">false</bool>
+
+
+<bool name="doze_display_state_supported">true</bool>
+<bool name="config_lockscreenAntiFalsingClassifierEnabled">false</bool>
+
+
 </resources>
